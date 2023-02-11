@@ -1,0 +1,55 @@
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e7e7e7;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+#about, #services {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.bgimage {
+    height: 110vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/jarvimaisema.jpg");
+    background-size:cover;
+    position:relative;
+}
+
+.hero_title {
+    font-size: 3.5rem;
+}
+
+.hero_desc {
+    font-size: 2rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+   
+.kuvaTietojaSivu {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.korttiKuva {
+    width: 100%;
+    border-radius: 5px;
+}
